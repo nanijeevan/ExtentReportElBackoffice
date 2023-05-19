@@ -22,7 +22,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class BaseClass {
 	public static 	ExtentReports extent=new ExtentReports();
-	public static 	ExtentSparkReporter spark=new ExtentSparkReporter("EL_BO_CompareAndSaveExtentReport3.html");
+	public static 	ExtentSparkReporter spark=new ExtentSparkReporter("EL_BO_CompareAndSaveExtentReportNewReport.html");
 	//ExtentReports report;
 	public static 	ExtentTest logger; 
 	public static 	WebDriver driver;
