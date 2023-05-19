@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T17:40:28 IST" name="Suite" finished-at="2023-05-18T17:49:55 IST" duration-ms="566803">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T17:40:28 IST" name="Test" finished-at="2023-05-18T17:49:55 IST" duration-ms="566803">
+      <class name="testing.BO_CompareANDSave_Execution">
+        <test-method is-config="true" signature="extentreport()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:40:28 IST" name="extentreport" finished-at="2023-05-18T17:40:28 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:40:28 IST" name="LaunchBrowser" finished-at="2023-05-18T17:40:48 IST" duration-ms="19837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:40:48 IST" name="FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage" finished-at="2023-05-18T17:40:54 IST" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:40:54 IST" name="screenshotCapture" finished-at="2023-05-18T17:40:55 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfCloseIcinInViewCompareAndSaveDetailsModalPage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:40:55 IST" name="LaunchBrowser" finished-at="2023-05-18T17:41:13 IST" duration-ms="18540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:13 IST" name="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName" finished-at="2023-05-18T17:41:20 IST" duration-ms="7283" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Enter name here')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adcea1a7886267ba72ea5a8ee302b976
+*** Element info: {Using=xpath, value=//div[contains(text(),'Enter name here')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Enter name here')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adcea1a7886267ba72ea5a8ee302b976
+*** Element info: {Using=xpath, value=//div[contains(text(),'Enter name here')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+at extentReports.CompareAndSavePOM.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName(CompareAndSavePOM.java:220)
+at testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName(BO_CompareANDSave_Execution.java:237)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:20 IST" name="screenshotCapture" finished-at="2023-05-18T17:41:21 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName status=FAILURE method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:21 IST" name="LaunchBrowser" finished-at="2023-05-18T17:41:39 IST" duration-ms="18465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:39 IST" name="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink" finished-at="2023-05-18T17:41:47 IST" duration-ms="7246" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Invalid External Url')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 454ba3eb37e54442b8ee894c86727197
+*** Element info: {Using=xpath, value=//div[contains(text(),'Invalid External Url')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Invalid External Url')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 454ba3eb37e54442b8ee894c86727197
+*** Element info: {Using=xpath, value=//div[contains(text(),'Invalid External Url')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+at extentReports.CompareAndSavePOM.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink(CompareAndSavePOM.java:234)
+at testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink(BO_CompareANDSave_Execution.java:245)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:47 IST" name="screenshotCapture" finished-at="2023-05-18T17:41:47 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink status=FAILURE method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:41:47 IST" name="LaunchBrowser" finished-at="2023-05-18T17:42:05 IST" duration-ms="18180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:05 IST" name="FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage" finished-at="2023-05-18T17:42:14 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:14 IST" name="screenshotCapture" finished-at="2023-05-18T17:42:14 IST" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveByDeletingtheLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:14 IST" name="LaunchBrowser" finished-at="2023-05-18T17:42:33 IST" duration-ms="19015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:33 IST" name="FunctionalityOfUpdatingTheCompareAndSaveCategoryName" finished-at="2023-05-18T17:42:42 IST" duration-ms="9480" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Demo Test132')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f3e8b3ba4e6d64d4994d26c80b37647
+*** Element info: {Using=xpath, value=//*[contains(text(),'Demo Test132')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Demo Test132')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f3e8b3ba4e6d64d4994d26c80b37647
+*** Element info: {Using=xpath, value=//*[contains(text(),'Demo Test132')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+at extentReports.CompareAndSavePOM.FunctionalityOfUpdatingTheCompareAndSaveCategoryName(CompareAndSavePOM.java:147)
+at testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveCategoryName(BO_CompareANDSave_Execution.java:205)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveCategoryName -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:42 IST" name="screenshotCapture" finished-at="2023-05-18T17:42:43 IST" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveCategoryName() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveCategoryName status=FAILURE method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:42:43 IST" name="LaunchBrowser" finished-at="2023-05-18T17:43:01 IST" duration-ms="18181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:01 IST" name="FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData" finished-at="2023-05-18T17:43:08 IST" duration-ms="7205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:08 IST" name="screenshotCapture" finished-at="2023-05-18T17:43:08 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveDetailsWithoutChangingTheData()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:08 IST" name="LaunchBrowser" finished-at="2023-05-18T17:43:26 IST" duration-ms="17779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:26 IST" name="FunctionalityOfUpdatingTheCompareAndSaveExternalLink" finished-at="2023-05-18T17:43:36 IST" duration-ms="9705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveExternalLink -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:36 IST" name="screenshotCapture" finished-at="2023-05-18T17:43:36 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveExternalLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveExternalLink status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:36 IST" name="LaunchBrowser" finished-at="2023-05-18T17:43:54 IST" duration-ms="18730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheCompareAndSaveLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:43:54 IST" name="FunctionalityOfUpdatingTheCompareAndSaveLogoImage" finished-at="2023-05-18T17:44:14 IST" duration-ms="19279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheCompareAndSaveLogoImage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:14 IST" name="screenshotCapture" finished-at="2023-05-18T17:44:14 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveLogoImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheCompareAndSaveLogoImage status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheCompareAndSaveLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:14 IST" name="LaunchBrowser" finished-at="2023-05-18T17:44:31 IST" duration-ms="17635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:31 IST" name="FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave" finished-at="2023-05-18T17:44:40 IST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:40 IST" name="screenshotCapture" finished-at="2023-05-18T17:44:40 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave status=SUCCESS method=BO_CompareANDSave_Execution.FunctionalityOfUpdatingTheExistiingCategoryOfCompareAndSave()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:40 IST" name="LaunchBrowser" finished-at="2023-05-18T17:44:58 IST" duration-ms="17783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddNewCompareAndSaveButton()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:44:58 IST" name="VerifyTheFunctionalityOfAddNewCompareAndSaveButton" finished-at="2023-05-18T17:45:01 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddNewCompareAndSaveButton -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:01 IST" name="screenshotCapture" finished-at="2023-05-18T17:45:01 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddNewCompareAndSaveButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddNewCompareAndSaveButton status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddNewCompareAndSaveButton()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:01 IST" name="LaunchBrowser" finished-at="2023-05-18T17:45:20 IST" duration-ms="19114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:20 IST" name="VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink" finished-at="2023-05-18T17:45:38 IST" duration-ms="18093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:38 IST" name="screenshotCapture" finished-at="2023-05-18T17:45:38 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingCompareAndSaveWithOutExternalLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:38 IST" name="LaunchBrowser" finished-at="2023-05-18T17:45:56 IST" duration-ms="18098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:45:56 IST" name="VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName" finished-at="2023-05-18T17:46:13 IST" duration-ms="16863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:13 IST" name="screenshotCapture" finished-at="2023-05-18T17:46:13 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingNewCompareAndSaveWithOutCategoryName()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:13 IST" name="LaunchBrowser" finished-at="2023-05-18T17:46:32 IST" duration-ms="18236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:32 IST" name="VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage" finished-at="2023-05-18T17:46:40 IST" duration-ms="8502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:40 IST" name="screenshotCapture" finished-at="2023-05-18T17:46:40 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingtheCompareAndSaveWithOutUploadingTheLogoImage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:40 IST" name="LaunchBrowser" finished-at="2023-05-18T17:46:58 IST" duration-ms="17649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:46:58 IST" name="VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage" finished-at="2023-05-18T17:47:04 IST" duration-ms="6014" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Ã—')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b11dde5cd0ca13b049a6c32f605267de
+*** Element info: {Using=xpath, value=//span[contains(text(),'Ã—')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Ã—')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3824BQ8', ip: '192.168.1.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b11dde5cd0ca13b049a6c32f605267de
+*** Element info: {Using=xpath, value=//span[contains(text(),'Ã—')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy17.click(Unknown Source)
+at extentReports.CompareAndSavePOM.ClickonCloseIconInAddNewCompareandSaveModalPage(CompareAndSavePOM.java:321)
+at testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage(BO_CompareANDSave_Execution.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:04 IST" name="screenshotCapture" finished-at="2023-05-18T17:47:04 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage status=FAILURE method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfCloseIconInAddNewCompareAndSaveModalPage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:04 IST" name="LaunchBrowser" finished-at="2023-05-18T17:47:22 IST" duration-ms="18242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityofComapreAndSaveViewDetailsButton()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:22 IST" name="VerifyTheFunctionalityofComapreAndSaveViewDetailsButton" finished-at="2023-05-18T17:47:27 IST" duration-ms="5068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityofComapreAndSaveViewDetailsButton -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:27 IST" name="screenshotCapture" finished-at="2023-05-18T17:47:28 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityofComapreAndSaveViewDetailsButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityofComapreAndSaveViewDetailsButton status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityofComapreAndSaveViewDetailsButton()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:28 IST" name="LaunchBrowser" finished-at="2023-05-18T17:47:45 IST" duration-ms="16946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityofCompareandSaveLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:45 IST" name="VerifyTheFunctionalityofCompareandSaveLink" finished-at="2023-05-18T17:47:48 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityofCompareandSaveLink -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:48 IST" name="screenshotCapture" finished-at="2023-05-18T17:47:48 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityofCompareandSaveLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityofCompareandSaveLink status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityofCompareandSaveLink()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:47:48 IST" name="LaunchBrowser" finished-at="2023-05-18T17:48:07 IST" duration-ms="18851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheUIofCompareAndSaveDetailsModalPageUI()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:07 IST" name="VerifyTheUIofCompareAndSaveDetailsModalPageUI" finished-at="2023-05-18T17:48:14 IST" duration-ms="7334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUIofCompareAndSaveDetailsModalPageUI -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:14 IST" name="screenshotCapture" finished-at="2023-05-18T17:48:14 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheUIofCompareAndSaveDetailsModalPageUI() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheUIofCompareAndSaveDetailsModalPageUI status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheUIofCompareAndSaveDetailsModalPageUI()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:14 IST" name="LaunchBrowser" finished-at="2023-05-18T17:48:31 IST" duration-ms="17205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheUIofCompareandSavePage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:31 IST" name="VerifyTheUIofCompareandSavePage" finished-at="2023-05-18T17:48:34 IST" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUIofCompareandSavePage -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:34 IST" name="screenshotCapture" finished-at="2023-05-18T17:48:34 IST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheUIofCompareandSavePage() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheUIofCompareandSavePage status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheUIofCompareandSavePage()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:34 IST" name="LaunchBrowser" finished-at="2023-05-18T17:48:53 IST" duration-ms="18362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddingNewCompareAndSave()[pri:1, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:48:53 IST" name="VerifyTheFunctionalityOfAddingNewCompareAndSave" finished-at="2023-05-18T17:49:13 IST" duration-ms="19849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddingNewCompareAndSave -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:49:13 IST" name="screenshotCapture" finished-at="2023-05-18T17:49:13 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingNewCompareAndSave() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddingNewCompareAndSave status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingNewCompareAndSave()[pri:1, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:49:13 IST" name="LaunchBrowser" finished-at="2023-05-18T17:49:31 IST" duration-ms="18147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyTheFunctionalityOfAddingExistingCompareAndSave()[pri:2, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:49:31 IST" name="VerifyTheFunctionalityOfAddingExistingCompareAndSave" finished-at="2023-05-18T17:49:55 IST" duration-ms="23889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheFunctionalityOfAddingExistingCompareAndSave -->
+        <test-method is-config="true" signature="screenshotCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:49:55 IST" name="screenshotCapture" finished-at="2023-05-18T17:49:55 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingExistingCompareAndSave() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheFunctionalityOfAddingExistingCompareAndSave status=SUCCESS method=BO_CompareANDSave_Execution.VerifyTheFunctionalityOfAddingExistingCompareAndSave()[pri:2, instance:testing.BO_CompareANDSave_Execution@77eca502] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testing.BO_CompareANDSave_Execution@77eca502]" started-at="2023-05-18T17:49:55 IST" name="flush" finished-at="2023-05-18T17:49:55 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testing.BO_CompareANDSave_Execution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
